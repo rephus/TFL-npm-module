@@ -1,0 +1,33 @@
+{
+  "name": "tlf",
+  "version": "1.0.0",
+  "description": "Transport for London module",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:rephus/TFL-npm-module.git"
+  },
+  "keywords": [
+    "tfl",
+    "transport",
+    "london",
+    "journey"
+  ],
+  "author": "Javier Rengel <javier@coconauts.net> (http://coconauts.net)",
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "http://www.gnu.org/licenses/gpl-3.0.en.html"
+    }
+  ],
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "chai": "~1.8.1"
+  },
+  "dependencies": {
+    "superagent": "^1.6.1"
+  }
+}
